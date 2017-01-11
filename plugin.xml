@@ -39,13 +39,7 @@
         <param name="ios-package" value="HealthKit"/>
       </feature>
     </config-file>
-
-    <config-file target="*-Info.plist" parent="UIRequiredDeviceCapabilities">
-      <array>
-        <string>healthkit</string>
-      </array>
-    </config-file>
-
+	  
 	<!-- Usage description of Health, mandatory since iOS 10 -->
     <config-file target="*-Info.plist" parent="NSHealthShareUsageDescription">
       <string>This app needs to access read your health data</string>
